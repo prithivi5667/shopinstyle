@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.App {
+  position: relative;
+}
+
+/* Cart Icon */
+.cartIcon {
+  padding: 0 0.5rem;
+}
+
+/* Header section after the navbar */
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #212529;
+  color: white;
+  line-height: 1.5;
+  height: 18.5rem;
+  padding: 0 2rem;
+}
+
+/* h1 and p tag in the header section */
+.header h1 {
+  font-size: 3.5rem;
+  font-weight: bolder;
+}
+
+.header p {
+  opacity: 0.5;
+  font-weight: 400;
+  font-size: 1.25rem;
+  margin-bottom: 0;
+}
+
+/* Main section after the header section where the Item Cards are displayed */
+.main {
+  margin: 3rem 0 6rem 0;
+}
+
+/* Sale Badge */
+.saleBdg {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  padding: 0.35em 0.65em;
+}
+
+/* Main Card and it's components */
+.cards {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2rem;
+  line-height: 1.5;
+  margin: 3rem 0;
+  height: 85%;
+}
+
+.cards h5 {
+  font-weight: bolder;
+  font-size: 1.25rem;
+}
+
+.cards p {
+  padding-top: 0.3rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.striked {
+  color: #818181;
+  text-decoration: line-through;
+  padding-right: 0.3rem;
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Hidden radio button for the star rating which is hidden */
+input[type="radio"] {
+  display: none;
+}
+
+/* Cart panel */
+.cartPanel {
+  height: fit-content;
+  width: fit-content;
+  background-color: white;
+  box-shadow: -2px 2px 15px 0px rgba(190, 190, 190, 0.753);
+  z-index: 2;
+  position: absolute;
+  right: 0;
+  padding: 1rem;
+}
+
+.checkout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.closebtn {
+  position: absolute;
+  top: 0.5rem;
+  left: 0;
+}
+
+.cartRow {
+  display: flex;
+  align-items: center;
+}
+
+.cartRow h6,
+.cartRow p {
+  margin-bottom: 0;
+}
+
+/* Footer section after the main section of the page */
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #212529;
+  color: white;
+  padding: 3rem 0;
+}
